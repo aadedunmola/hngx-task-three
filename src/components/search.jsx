@@ -1,4 +1,5 @@
 import React from "react";
+import '../pages/ImageGallery'
 
 
 function InputSearch({ searchByTag, setSearchByTag }) {

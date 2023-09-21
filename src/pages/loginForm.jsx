@@ -21,19 +21,19 @@ function LoginForm() {
       navigate("/Gallery") // Use signInWithEmailAndPassword from getAuth
       // User is logged in successfully
     } catch (error) {
-      // Handle authentication error (e.g., display an error message)
+      
       console.error('Login error:', error);
       toast.error("Invalid email or password!!");
     }
   };
 
   return (
-    <div>
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
-        <div>
+    <div className='form-box'>
+      <h2 className='login'>Login to view my gallery</h2>
+      <form className='login-forms' onSubmit={handleLogin}>
+        <div className="info">
           <label>Email:</label>
-          <input
+          <input className='idea'
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -41,18 +41,18 @@ function LoginForm() {
           />
 
         </div>
-        <div>
+        <div className="info">
           <label>Password:</label>
-          <input
+          <input className='idea'
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
           />
         </div>
-        <div>
-          <button type="submit">Log In</button>
-        </div>
+        
+          <div className='next' type="submit">Log In</div>
+       
       </form>
       <ToastContainer />
     </div>
