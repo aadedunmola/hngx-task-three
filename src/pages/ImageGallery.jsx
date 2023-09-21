@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import pictureData from "../components/pictures.jsx";
-// import Details from "../components/image.jsx";
 import InputSearch from "../components/search.jsx";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import { toast, ToastContainer } from "react-toastify";

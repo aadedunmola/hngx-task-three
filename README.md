@@ -1,8 +1,38 @@
-# React + Vite
+## Gallery Dropper
+- You change position of the images in the gallery app and search for images by the tags
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+##  Getting Started
+- change your directory
+   cd desktop 
+   cd "hngx task three"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies 
+
+- react + vite
+- react toastify
+- react beautiful dnd
+
+## Usage
+
+- run npm dev to run your server
+
+- to launch the app use the following  details
+  email:- user@example.com
+  password:- 1Password
+
+## Folder structure
+|-- src/
+|   |-- components/
+|   |-- styles/
+|   |-- App.jsx
+|   |-- index.js
+|-- public/
+|-- package.json
+|-- README.md
+|-- ...
+
+
+
+

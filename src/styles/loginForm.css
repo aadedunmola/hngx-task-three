@@ -39,7 +39,7 @@ label {
   border-radius: 5px;
   outline: none;
   font-weight: bold;
-  margin-bottom: 1.2rem;
+  
 }
 
 .next {
@@ -65,7 +65,12 @@ label {
   border: 0.1rem solid #ccc;
   border-radius: 1.5rem;
   background-color: #fff;
+  margin-top: 10rem;
+  @media (max-width: 500px){
+    margin-top: 5rem;
+  }
 }
+
 
 .login {
   text-align: center;
@@ -80,5 +85,35 @@ label {
 
 .info{
   max-width: 21.56rem;
+  width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.loading {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.error{
+  color: red;
+  font-size: 0.813rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0.2rem;
+  
 }
 
